@@ -54,11 +54,3 @@ Check out a sample video demonstrating LegallAI in action:
 
 [![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
-## Contributing
-We welcome contributions! Feel free to open an issue or submit a pull request.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-For any questions or suggestions, feel free to reach out to us!
