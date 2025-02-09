@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# LegallAI
+
+LegallAI is an AI-powered legal advice platform that provides legal document analysis and summarization. It leverages **FAISS** for efficient retrieval of relevant legal documents and generates legal advice and explanations based on the retrieved information. The platform is built using **Streamlit** for the user interface.
+
+## Features
+- **Legal Document Analysis**: Upload and analyze legal documents.
+- **Summarization**: Get concise summaries of lengthy legal documents.
+- **FAISS-based Retrieval**: Efficiently fetch relevant legal documents.
+- **AI-Powered Legal Advice**: Provides explanations and insights based on retrieved legal texts.
+- **Streamlit UI**: A simple and interactive interface for ease of use.
 
 ## Getting Started
 
-First, run the development server:
+### Fork and Clone the Repository
+To get started with LegallAI, first fork the repository and clone it to your local machine:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```sh
+# Clone the repository
+git clone https://github.com/your-username/LegallAI.git
+
+# Change directory to the project folder
+cd LegallAI
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Running the Frontend
+The frontend is built using **React**. To start the frontend, follow these steps:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```sh
+# Navigate to the frontend directory
+cd frontend
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Install dependencies
+npm install
 
-## Learn More
+# Start the development server
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Running the Backend (Streamlit App)
+The backend is built using **Streamlit**. To start the Streamlit application, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```sh
+# Navigate to the Streamlit app directory
+cd streamlit-app
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Run the Streamlit app
+streamlit run app.py
+```
 
-## Deploy on Vercel
+After running the above command, go to `http://localhost:8501` in your browser to access the application.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Sample Video
+Check out a sample video demonstrating LegallAI in action:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+
+## Contributing
+We welcome contributions! Feel free to open an issue or submit a pull request.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+For any questions or suggestions, feel free to reach out to us!
